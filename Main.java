@@ -8,7 +8,7 @@ public class Main {
         String sql = "SELECT student_id FROM student where student_id = 1";
         String url = "jdbc:mysql://localhost:3306/vamsi";
         String username="root";
-        String password = "Vamsi@1";
+        String password = "Vamsi@12";
 
         Connection con = DriverManager.getConnection(url,username,password);
 
